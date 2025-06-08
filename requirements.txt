@@ -1,8 +1,8 @@
 streamlit==1.36.0
-pandas==2.1.4  # Versión anterior de Pandas, más compatible con Python 3.13 en entornos de despliegue
+pandas==2.2.2          # Mantenemos esta, el error anterior era de Pillow
 numpy==1.26.4
 streamlit-option-menu==0.3.6
 plotly==5.22.0
 ultralytics==8.2.35
-opencv-python==4.8.1.78
-Pillow==10.2.0 # Versión anterior de Pillow, compatible con Python 3.13
+opencv-python==4.9.0.80  # Actualizamos a una versión más reciente
+Pillow==10.3.0         # Volvemos a 10.3.0, que debería ser compatible con 3.13.3 si las dependencias subyacentes están bien
